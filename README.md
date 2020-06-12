@@ -34,24 +34,35 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+--To use Semantic HTML is to use HTML tags that describe the idea of the page and its individual elements. Semantic tags give meaning and value to your data. For instance, you COULD create a title for your page with just a <div> and then style it with CSS so that it is clear that the title is the most important data on your page. However, by using a semantic <h1> tag you can not only achieve the same styling ability that you would with a 
+non-semantic tag, but you also show within your HTML markup that your title is the most important element.--
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+--Display: block starts data on a new line and taks up the whole available width, where inline has no effect on height or width and an obejct will remain on the same line.--
 
 3. What are the 4 areas of the box model?
 
+--Content < Padding < Border < Margin--
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+--Cross axis--
 
 5. Explain why git is valuable to a team of developers.
 
-You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+--Using git allows a team of developers to each be able to work on the same project with out the worry of overwriting one another's work, and without the risk of two or more developers working on the same part of a project without knowing. In addition, git creates a back-up system of sorts for developers by allowing them to save their project at decided save points, so that they may access those points later on to fix bugs or rework those points.--
+
+You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.--
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [X] Create a forked copy of this project.
+- [X] Add your project manager as collaborator on Github.
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [X] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
@@ -69,8 +80,8 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [X] Build the HTML and CSS to create the missing navigation and header.
+* [X] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
