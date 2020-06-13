@@ -55,7 +55,7 @@ html {
 }
 
 body {
-    margin: 3% 12%;
+    margin: 3% 20%;
 }
 
 header { 
@@ -81,6 +81,10 @@ header .top {
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+
+.top nav a:hover{
+    opacity: 0.25;
 }
 
 h1, h2, h3, h4, h5 {
@@ -269,4 +273,8 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover{
+    opacity: 0.25;
 }

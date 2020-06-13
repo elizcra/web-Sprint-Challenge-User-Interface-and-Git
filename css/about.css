@@ -88,6 +88,10 @@ html {
     letter-spacing: 2px;
 }
 
+.top a:hover{
+    opacity: 0.25;
+}
+
 .headerimg {
     width: 100%;
     margin-bottom: 20px;
@@ -180,4 +184,8 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover{
+    opacity: 0.25;
 }
